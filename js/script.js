@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $(".box").click(() => {
+    $(this).toggleClass("active");
+  });
+
   $(window).scroll(function () {
     updateLeft();
     updateRight();
@@ -51,3 +55,9 @@ $(document).ready(function () {
     loop: true,
   });
 });
+
+const array = [1, 2, 3];
+const result = array.map((num) => {
+  if (num > 1) return num * 2;
+});
+console.log(result);

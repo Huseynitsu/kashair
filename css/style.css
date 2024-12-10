@@ -1838,3 +1838,15 @@ footer p {
     transform: translate(-50%, -50%) rotate(45deg);
     opacity: 0;
 }
+
+.box {
+    animation: car;
+}
+
+.box:hover {
+    animation: car;
+}
+
+@keyframes car {
+    
+}
